@@ -104,9 +104,15 @@ header {
 
 .hero div {
   position: absolute;
-  bottom: 50px;
+  bottom: 100px;
   left: 0;
   right: 0;
+}
+
+.hero div h1 {
+  color: white;
+  text-align: left;
+  max-width: 1000px;
 }
 
 .banner-filled-pink {
@@ -117,9 +123,13 @@ header {
 }
 
 .banner-border-green {
-  border-top: 3px solid #9fb14b;
-  border-bottom: 3px solid #9fb14b;
+  border-top: 3px solid #c5d96a;
+  border-bottom: 3px solid #c5d96a;
   text-align: center;
+}
+
+.banner-border-green h2 {
+  color: #c5d96a;
 }
 
 .trip-grid {
@@ -140,6 +150,15 @@ header {
 
 .trip-grid .right {
   grid-area: right;
+}
+
+.content {
+  color: #4f4f4f;
+}
+
+.content h3 {
+  font-family: "Josefin Sans";
+  font-weight: 200;
 }
 
 footer {
@@ -180,15 +199,29 @@ nav ul {
 
 nav.primary-nav ul {
   display: flex;
-  grid-gap: 20px;
+  grid-gap: 50px;
 }
 
 nav ul a {
   text-decoration: none;
+  font-family: "Poppins";
+  font-size: 22px;
+  font-weight: 400;
 }
 
 nav.primary-nav ul a {
-  color: #333333;
+  color: #000000;
+}
+
+.logo {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 33px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
 }
 
 .footer-nav {
